@@ -1,0 +1,10 @@
+.profile-dropdown{
+    background-color: #f2f2f2;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    border-radius: 2rem;
+    
+}

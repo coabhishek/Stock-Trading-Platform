@@ -1,0 +1,290 @@
+.kite_connect-img-box {
+  display: flex;
+  align-items: center;
+  background-color: rgb(236, 248, 244);
+  border-radius: 2rem;
+  padding: 1rem;
+  max-width: 100%;
+}
+.price-box {
+  display: flex;
+  align-items: center;
+}
+
+.price-box img {
+  width: 90%;
+  display: block;
+}
+.price-box p {
+  padding-top: 10px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.price-box-container {
+  display: flex;
+}
+
+/* nnavbar styling */
+.navbar {
+  width: 100%;
+
+  padding-inline: 6rem;
+  height: 70px;
+  margin: auto;
+  background-color: #fff !important;
+}
+.navbar-brand img {
+  width: 22%;
+}
+
+#navbarSupportedContent ul li a {
+  padding-inline: 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.5 ease-in;
+}
+
+#navbarSupportedContent ul li a:hover {
+  color: #7171f0;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-bar-icon i {
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+.navbar-bar-icon i:hover {
+  cursor: pointer;
+}
+
+.footer-socials-icon {
+  padding-inline: 1rem;
+}
+.footer-listing-heading {
+  padding-inline: 2rem;
+}
+
+.footer-lists li {
+  list-style: none;
+  cursor: pointer;
+}
+.footer-lists li:hover {
+  list-style: none;
+  color: rgb(86, 86, 250);
+  cursor: pointer;
+  /* font-weight:500; */
+}
+.footer-container {
+  max-width: 100% !important;
+  /* padding: 2rem; */
+  /* border: 1px solid black; */
+  background-color: rgba(231, 231, 231, 0.384);
+}
+.footer-list-sec {
+  /* border: 1px solid black; */
+  margin: auto;
+  display: block;
+  width: 90%;
+  padding: 10px;
+}
+.footer-chile-container {
+  padding: 1rem;
+}
+
+.footer-para {
+  font-size: 12px;
+}
+.footer_ka_a {
+  font-size: 12px;
+}
+
+.NithinKamath-name{
+  /* border: 1px solid black; */
+  padding-inline: 6rem;
+  padding-top: 20px;
+}
+
+
+.NithinKamath-name .pure-name{
+  font-size: 1.5rem;
+
+}
+
+.pricing-list{
+  list-style: none;
+  padding: 10px;
+}
+.type-account{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* suport component */
+
+.support-wrapper {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #fafafa;
+  color: #18181b;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+
+.support-container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* Top Section */
+.top-section {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.top-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #09090b;
+}
+
+.top-desc {
+  color: #71717a;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Top Search Bar */
+.top-search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #e4e4e7;
+  border-radius: 9999px;
+  padding: 0.35rem 0.35rem 0.35rem 1.25rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.top-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  color: #18181b;
+  background: transparent;
+}
+
+.top-search-btn {
+  background-color: #18181b;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.top-search-btn:hover {
+  background-color: #27272a;
+}
+
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid #e4e4e7;
+  margin: 2rem 0;
+}
+
+/* Bottom Section (Popular Topics) */
+.bottom-section {
+  background: white;
+  border: 1px solid #e4e4e7;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bottom-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #09090b;
+}
+
+.quick-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.quick-link-item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #3f3f46;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f4f4f5;
+  transition: color 0.2s;
+}
+
+.quick-link-item:last-child a {
+  border-bottom: none;
+}
+
+.quick-link-item a:hover {
+  color: #2563eb;
+}
+
+.arrow {
+  color: #a1a1aa;
+}
+
+/* Extra Bottom Section (Contact Support Card) */
+.contact-section {
+  background: white;
+  border: 1px solid #e4e4e7;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #09090b;
+}
+
+.contact-desc {
+  font-size: 0.875rem;
+  color: #71717a;
+  margin-bottom: 1rem;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #f4f4f5;
+  color: #18181b;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #e4e4e7;
+  transition: background-color 0.2s;
+}
+
+.contact-btn:hover {
+  background-color: #e4e4e7;
+}
